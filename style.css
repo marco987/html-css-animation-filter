@@ -22,16 +22,35 @@
   width: 100%;
 }
 
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    border-radius: 0;
+    transition: border-radius 1s ease;
 }
+
+.ex-3-square:hover {
+  border-radius: 100%;
+}
+
+
+
+
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: background 2s ease;
 }
+
+.ex-4-square:hover {
+  background: none;
+}
+
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
